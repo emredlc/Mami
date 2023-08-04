@@ -1,0 +1,103 @@
+        .signup-page{
+            padding-top: 20px;
+        } 
+        .signup-title {
+            text-align: center;
+            font-size: 30px;
+            color: black;
+        }
+
+        .signup-form {
+            width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .signup-form {
+                width: 500px;
+                margin: 10px auto;
+            }
+        }
+
+        .signup-form label {
+            color: beige;
+        }
+
+        .signup-form label,
+        .signup-form input:not([type="checkbox"]),
+        .signup-form select {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .signup-form input:not([type="checkbox"]),
+        .signup-form select {
+            border-radius: 4px;
+        }
+
+        .signup-form input[type="checkbox"],
+        .signup-form input[type="checkbox"] + label {
+            display: inline-block;
+            width: auto;
+            margin-top: 15px;
+        }
+
+        .signup-form button[type="submit"] {
+            display: block;
+            margin-top: 15px;
+        }
+
+        .signup-form input:not([type="checkbox"]),
+        .signup-form select {
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+        }
+
+        .signup-form input:not([type="checkbox"]):hover,
+        .signup-form select:hover {
+            background-color: #F6C90E;
+            transition-duration: .3s;
+        }
+
+        .signup-form input:not([type="checkbox"]):focus,
+        .signup-form select:focus {
+            outline: none;
+            background-color: #979797;
+            border: 1px solid black;
+            transition-duration: .3s;
+        }
+
+        .signup-form input[type="checkbox"] {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #979797;
+            vertical-align: bottom;
+            border-radius: 50%;
+        }
+        
+        .signup-form input[type="checkbox"]:hover {
+            background: gray;
+        }
+        
+        .signup-form input[type="checkbox"]:checked {
+            background: #F6C90E;
+        }
+        .main-nav__item:last-child {
+            display: none;
+        }
+
+        @media (max-width: 600px) {
+            .main-nav__item {
+                display: none;
+            }
+            .main-nav__item:last-child {
+                display: block;
+            }
+            .main-nav {
+                display: inline-block;
+                width: calc(100% - 11.69999999999999rem);
+                text-align: right;
+            }
+            
+        }

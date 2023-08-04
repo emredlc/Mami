@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background-color: #303841;
+}        
+
+html {
+    font-size: 62.5%!important;
+}
+
+.abc  h1 {
+    font-size: 200%!important;
+}
+
+
+.main-header__logo {
+    font-size: 120%!important;
+}
+
+
+
+
+
+@media (max-width: 576px) { 
+
+    #showcase {
+        height: 60vh !important;
+    }
+
+    .recommended_plan {
+        top: 0 !important;
+    }
+
+    .container {
+        margin: 0 auto;
+        /* width: 1000px; */
+    }
+
+    .counters_title {
+        letter-spacing: 8px !important;
+        font-size: 15px !important;
+    }
+
+    #footer-links{
+        height: 183px !important;
+    }
+
+    #footer-links li,
+    #social-links li {
+        display: block !important;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .f-col-2 {
+        width: 50% !important;
+    }
+
+}
+
+@media (min-width: 576px) { 
+    #showcase {
+        height: 60vh;
+    }
+
+    .container {
+        margin: 0 auto;
+        /* width: 1000px; */
+    }
+
+    html {
+        font-size: 80%!important;
+    }
+
+    .abc  h1 {
+        font-size: 200%!important;
+    }
+
+    .main-header__logo {
+        font-size: 150%!important;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    #showcase {
+        height: 70vh;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 700px;
+    }
+    html {
+        font-size: 100%!important;
+    }
+    .abc  h1 {
+        font-size: 300%!important;
+    }
+
+    .main-header__logo {
+        font-size: 193%!important;
+    }
+    
+}
+
+@media (min-width: 992px) { 
+    #showcase {
+        height: 84vh;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+    }
+    html {
+        font-size: 100%;
+    }
+
+    
+ }
+
+ @media (max-width: 768px) {
+    .col-3, .col-2, .col-4 {
+        width: 100%!important;
+    }
+    html {
+        font-size: 100%;
+    }
+
+    
+ }
+
+.row {
+    margin-bottom: 40px;
+}
+
+.col-2 {
+    float: left;
+    width: calc(50% - 1px);
+}
+
+.f-col-2 {
+    float: left;
+    width: calc(50% - 1px);
+}
+
+.col-3 {
+    float: left;
+    width: 33.3%;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+}
+
+.clearfixx::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* width: 1000px; */
+}
+
+.img_fluid {
+    width: 100%;
+}
+
