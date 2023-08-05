@@ -24,6 +24,7 @@ html {
 
     #showcase {
         height: 60vh !important;
+        background-position: top right !important;
     }
 
     .recommended_plan {
