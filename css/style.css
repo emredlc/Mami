@@ -13,7 +13,7 @@
 
         #showcase { 
             background-image: url('../img/stad.jpg');
-            background-position: top;
+            background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             height: 84vh;
