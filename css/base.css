@@ -24,7 +24,7 @@ html {
 
 
     #showcase { 
-        background-image: url('../img/sh.jpeg');
+        background-image: url('../img/sh.jpeg') !important;
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
