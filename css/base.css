@@ -22,6 +22,10 @@ html {
 
 @media (max-width: 576px) { 
 
+    .opacity{
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
     #showcase {
         height: 60vh !important;
         background-position: top right !important;
